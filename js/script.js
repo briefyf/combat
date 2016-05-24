@@ -6,28 +6,28 @@
 		autoplay = true,
 		playlist = [
 		{
-title: '肩上蝶',
-artist: '金志文',
-album: '肩上蝶',
-cover:'images/1.gif',
-mp3: 'http://rm.sina.com.cn/wm/VZ2010050511043310440VK/music/MUSIC1005051622027270.mp3',
-ogg: 'http://dxsn.gongzuo.in/bowen/HTML5player/music/jianshangdie.ogg'
+title: '我相信',
+artist: '杨培安',
+album: '我相信',
+cover:'images/0042Fpvagy6FfjOmR69a1.jpeg',
+mp3: 'http://link.hhtjim.com/baidu/5910877.mp3',
+ogg: ''
 },
 {
-title: '我可以抱你吗',
-artist: '张惠妹',
-album: '我可以抱你吗',
-cover: 'images/132731360220331_4.jpg',
-mp3: 'http://rm.sina.com.cn/wm/VZ200812161100307607VK/music/MUSIC0812161100379667.mp3',
-ogg: 'http://dxsn.gongzuo.in/bowen/HTML5player/music/wokeyibaonima.ogg'
+title: '青鸟之歌',
+artist: '孙楠',
+album: '青鸟之歌',
+cover: 'images/aptech_logo.jpg',
+mp3: 'http://link.hhtjim.com/baidu/98783707.mp3',
+ogg: ''
 },
 {
-title: '一万个舍不得',
-artist: '庄心妍',
-album: '一万个舍不得',
-cover: 'images/20130325084808733.jpg',
-mp3: 'http://rm.sina.com.cn/wm/VZ200812161100307607VK/music/MUSIC0812161100379667.mp3',
-ogg: 'http://dxsn.gongzuo.in/bowen/HTML5player/music/yiwangeshebude.ogg'
+title: '一生有你',
+artist: '水木年华',
+album: '一生有你',
+cover: 'images/1E255Aa1M.jpg',
+mp3: 'http://link.hhtjim.com/baidu/15953716.mp3',
+ogg: ''
 },];
 
 	// Load playlist
