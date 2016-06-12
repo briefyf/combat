@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://briefyf.github.io/combat/schema/util/timer" attributeFormDefault="unqualified"
+           elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="timer-config" type="timer-configType"/>
+    <xs:complexType name="timer-configType">
+        <xs:sequence>
+            <xs:element type="timerType" name="timer" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="timerType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="scheduled" use="optional"/>
+                <xs:attribute type="xs:string" name="service" use="optional"/>
+                <xs:attribute type="xs:string" name="desc" use="optional"/>
+                <xs:attribute type="xs:string" name="sync" use="optional"/>
+                <xs:attribute type="xs:string" name="custom" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>
