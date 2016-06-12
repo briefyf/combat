@@ -1,0 +1,21 @@
+body {
+    background-image: url('../images/planet_galaxy_light_rays_stars_62609_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+#container {
+    width: 100%;
+    position: relative;
+    margin: 0 0 0 20%;
+    opacity: 0.8;
+    background-color: #dce6f0;
+}
+#content{
+    position:absolute;
+    overflow: hidden;
+    width: 60%;
+    color: chartreuse;
+}
